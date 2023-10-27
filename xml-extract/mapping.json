@@ -1,0 +1,106 @@
+{
+    "rowsPath": "//OpportunitySynopsisDetail_1_0",
+    "columns": [
+        {
+            "header": "opportunity_title",
+            "valuePath": "OpportunityTitle"
+        },
+        {
+            "header": "opportunity_number",
+            "valuePath": "OpportunityNumber"
+        },
+        {
+            "header": "opportunity_category",
+            "valuePath": "OpportunityCategory"
+        },
+        {
+            "header": "FundingInstrumentType",
+            "valuePath": "FundingInstrumentType"
+        },
+        {
+            "header": "CategoryOfFundingActivity",
+            "valuePath": "CategoryOfFundingActivity"
+        },
+        {
+            "header": "CategoryExplanation",
+            "valuePath": "CategoryExplanation"
+        },
+        {
+            "header": "CFDANumbers",
+            "valuePath": "CFDANumbers"
+        },
+        {
+            "header": "EligibleApplicants",
+            "valuePath": "EligibleApplicants"
+        },
+        {
+            "header": "AdditionalInformationOnEligibility",
+            "valuePath": "AdditionalInformationOnEligibility"
+        },
+        {
+            "header": "AgencyCode",
+            "valuePath": "AgencyCode"
+        },
+        {
+            "header": "AgencyName",
+            "valuePath": "AgencyName"
+        },
+        {
+            "header": "PostDate",
+            "valuePath": "PostDate"
+        },
+        {
+            "header": "CloseDate",
+            "valuePath": "CloseDate"
+        },
+        {
+            "header": "LastUpdatedDate",
+            "valuePath": "LastUpdatedDate"
+        },
+        {
+            "header": "AwardCeiling",
+            "valuePath": "AwardCeiling"
+        },
+        {
+            "header": "AwardFloor",
+            "valuePath": "AwardFloor"
+        },
+        {
+            "header": "EstimatedTotalProgramFunding",
+            "valuePath": "EstimatedTotalProgramFunding"
+        },
+        {
+            "header": "ExpectedNumberOfAwards",
+            "valuePath": "ExpectedNumberOfAwards"
+        },
+        {
+            "header": "Description",
+            "valuePath": "Description"
+        },
+        {
+            "header": "Version",
+            "valuePath": "Version"
+        },
+        {
+            "header": "CostSharingOrMatchingRequirement",
+            "valuePath": "CostSharingOrMatchingRequirement"
+        },
+        {
+            "header": "ArchiveDate",
+            "valuePath": "ArchiveDate"
+        },
+        {
+            "header": "GrantorContactEmail",
+            "valuePath": "GrantorContactEmail"
+        },
+        {
+            "header": "GrantorContactEmailDescription",
+            "valuePath": "GrantorContactEmailDescription"
+        },
+        {
+            "header": "GrantorContactText",
+            "valuePath": "GrantorContactText"
+        }
+    ]
+}
+
