@@ -11,7 +11,7 @@ jobs:
     strategy:
       matrix:
         directory: ["database", "service"]
-        envs: ${{ fromJSON('[\"dev\"]') }}
+        envs: ${{ fromJSON('{[\"dev\"]}') }}
     steps:
       - name: Spit it out
         run: |
