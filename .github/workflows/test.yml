@@ -11,9 +11,7 @@ jobs:
     strategy:
       matrix:
         directory: ["database", "service"]
-        envs: ['dev', 'staging', 'prod']
-        exclude:
-          - envs: ${{ (github.event_name == 'release' && 'prod') || 'dev' }}
+        envs: ${{ fromJSON('[\"dev\"]') }}
     steps:
       - name: Spit it out
         run: |
