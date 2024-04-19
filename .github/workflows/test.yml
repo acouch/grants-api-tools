@@ -13,7 +13,7 @@ jobs:
         directory: ["database", "service"]
         envs: ['dev', 'staging', 'prod']
         exclude:
-          - envs: ${{ (github.event_name != 'release' && 'prod') }}
+          - envs: ${{ (github.event_name == 'release' && 'prod') }}
   
     steps:
       - name: Spit it out
